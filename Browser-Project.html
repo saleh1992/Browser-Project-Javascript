@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome File -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Browser-Project</title>
+</head>
+<body>
+    <div class="container">
+        <div id="left" onclick="previous()"><i class="fa-solid fa-arrow-left"></i></div>
+        <div id="right" onclick="next()"><i class="fa-solid fa-arrow-right"></i></div>
+        <div id="rotate" onclick="refresh()"><i class="fa-solid fa-arrow-rotate-right"></i></div>
+        <div id="house" onclick="home()"><i class="fa-solid fa-house"></i></div>
+        <input onchange="submit()" type="url" name="" id="link">
+        <input onclick="submit()" type="submit" value="GO" id="submit">
+    </div>
+    <iframe id="iframe" name="boxbrowser" src=""></iframe>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+<script src="Browser-Project.js"></script>
+
+</html>
