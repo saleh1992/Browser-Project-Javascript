@@ -39,5 +39,5 @@ function refresh(){
 }
 // home Funcation
 function home(){
-    window.open('Browser-Project.html',"_self")
+    window.open('index.html',"_self")
 }
